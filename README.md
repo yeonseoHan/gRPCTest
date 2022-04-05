@@ -18,6 +18,32 @@ INSTALL
    $ cd examples/node
    $ npm install
    ```
+   
+   
+   
+   
+TEST
+-------
+
+패키지 다운로드 후
+
+cd dynamic_codegen
+
+터미널 1
+node greeter_server.js 실행 후
+
+터미널 2
+node greeter_client.js 실행
+
+- greeter_server.js 에서
+
+unaryTest() : 단방향 통신 코드 (1회성)
+bidirectTest() : 양방향 통신 코드 (커맨드 라인 입력)
+
+주석 토글로 테스트 가능합니다.
+
+(아래는 참고)
+
 
 TRY IT!
 -------
